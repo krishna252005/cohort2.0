@@ -1,0 +1,120 @@
+/* @font-face {
+    font-family: moxills;
+    src: url(/Twilight\ Stroke.otf);
+}
+ */
+
+@font-face {
+    font-family: bold ;
+    src: url(./WhisperingSignature.ttf);
+}
+
+@font-face {
+    font-family: brilliant ;
+    src: url(/brillant.otf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* 
+h1{
+    color: blue;
+    background-color: bisque;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200px;
+    font-style: italic;
+    font-size: 200px;
+    text-align: center;
+    text-transform: none;
+}
+
+#kichi{ */
+/* 
+    color: rgb(195, 0, 255);
+    background-color: rgb(205, 141, 63);
+    font-family: monospace;
+    font-weight: 200px;
+    font-style: inherit;
+    font-size: 200px;
+    text-align: center;
+    text-transform: none;
+
+}
+
+#ila{
+     
+    color: rgb(99, 37, 142);
+    background-color: rgb(223, 196, 74);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200px;
+    font-style: inherit;
+    font-size: 200px;
+    text-align: center;
+    text-transform: none;
+
+
+}
+
+.inu{
+
+    color: rgb(101, 208, 40);
+    background-color: rgb(13, 67, 22);
+    font-family: moxills;
+    font-weight: bolder;
+    font-style: inherit;
+    font-size: 100px;
+    text-align: center;
+    text-transform: none;
+
+
+} */
+
+ #box1{
+    height: 100%;
+    width: 100%;
+    background-image: url(/pexels-uiliamnornberg-30712810.jpg);
+    background-size: cover ;
+    background-position: 0   -500px;
+    position: relative;
+    
+ }
+
+ #ittsh1{
+    height: 100px;
+    font-family: bold;
+    text-align: left ;
+    position: absolute;
+  left: 150px;               /* Left side */
+  top: 50%;              /* 50% height */
+  transform: translateY(-50%); /* Exact vertical center */
+  font-weight: bolder;
+  font-size: 100px;
+    
+    
+ }
+
+ #ittsh2{
+    height: 100px;
+    font-family: brilliant;
+    text-align: right;
+    position: absolute;
+  right: 150px;               /* Right side */
+  top: 50%;               /* Div ka 50% height */
+  transform: translateY(-50%); /* Exact vertical center */
+  font-weight: bolder;
+  font-size: 100px;
+  color: #44000E;
+    
+    
+ }
