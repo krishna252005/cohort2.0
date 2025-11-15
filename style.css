@@ -85,7 +85,7 @@ h1{
     width: 100%;
     background-image: url(/pexels-uiliamnornberg-30712810.jpg);
     background-size: cover ;
-    background-position: 0   -500px;
+    background-position: 0   -300px;
     position: relative;
     
  }
@@ -96,7 +96,7 @@ h1{
     text-align: left ;
     position: absolute;
   left: 150px;               /* Left side */
-  top: 50%;              /* 50% height */
+  top: 15%;              /* 50% height */
   transform: translateY(-50%); /* Exact vertical center */
   font-weight: bolder;
   font-size: 100px;
@@ -110,7 +110,7 @@ h1{
     text-align: right;
     position: absolute;
   right: 150px;               /* Right side */
-  top: 50%;               /* Div ka 50% height */
+  top: 18%;               /* Div ka 50% height */
   transform: translateY(-50%); /* Exact vertical center */
   font-weight: bolder;
   font-size: 100px;
