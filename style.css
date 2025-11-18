@@ -1,18 +1,18 @@
-/* @font-face {
-    font-family: moxills;
-    src: url(/Twilight\ Stroke.otf);
-}
- */
-
 @font-face {
-    font-family: bold ;
-    src: url(./WhisperingSignature.ttf);
+    font-family:vogue ;
+    src: url(./AppleGaramond.ttf);
 }
 
 @font-face {
-    font-family: brilliant ;
-    src: url(/brillant.otf);
+    font-family: unique ;
+    src: url(./ChettaVissto.ttf);
 }
+
+@font-face {
+    font-family:diff ;
+    src: url(./CaviarDreams.ttf);
+}
+
 
 
 *{
@@ -22,99 +22,149 @@
 }
 
 html,body{
+
     height: 100%;
     width: 100%;
 }
 
+#main{
 
-/* 
-h1{
-    color: blue;
-    background-color: bisque;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 200px;
-    font-style: italic;
-    font-size: 200px;
-    text-align: center;
-    text-transform: none;
-}
-
-#kichi{ */
-/* 
-    color: rgb(195, 0, 255);
-    background-color: rgb(205, 141, 63);
-    font-family: monospace;
-    font-weight: 200px;
-    font-style: inherit;
-    font-size: 200px;
-    text-align: center;
-    text-transform: none;
-
-}
-
-#ila{
-     
-    color: rgb(99, 37, 142);
-    background-color: rgb(223, 196, 74);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 200px;
-    font-style: inherit;
-    font-size: 200px;
-    text-align: center;
-    text-transform: none;
-
-
-}
-
-.inu{
-
-    color: rgb(101, 208, 40);
-    background-color: rgb(13, 67, 22);
-    font-family: moxills;
-    font-weight: bolder;
-    font-style: inherit;
-    font-size: 100px;
-    text-align: center;
-    text-transform: none;
-
-
-} */
-
- #box1{
     height: 100%;
     width: 100%;
-    background-image: url(/pexels-uiliamnornberg-30712810.jpg);
-    background-size: cover ;
-    background-position: 0   -300px;
+    color: black;
+    position: relative;
+}
+
+#nav{
+    padding: 40px;
+    width: 100%;
+    height: 60px;
+    /* margin-top: 50px; */
+    display: flex;
+    justify-content: space-evenly;
     position: relative;
     
- }
+    
 
- #ittsh1{
-    height: 100px;
-    font-family: bold;
-    text-align: left ;
-    position: absolute;
-  left: 150px;               /* Left side */
-  top: 15%;              /* 50% height */
-  transform: translateY(-50%); /* Exact vertical center */
-  font-weight: bolder;
-  font-size: 100px;
-    
-    
- }
+}
 
- #ittsh2{
-    height: 100px;
-    font-family: brilliant;
-    text-align: right;
+.navs{
+
+    display: flex;
+    font-size:20px ;
+    font-weight: 10;
+    gap: 30px;
+
+
+
+}
+
+#nav #shuru{
+position: absolute;
+left: 5%;
+font-family: diff;
+
+
+}
+
+#nav #khatam{
+position: absolute;
+right: 5%;
+font-family: diff;
+
+}
+
+#beechu{
+    font-family: unique;
+    font-size:35px ;
+}
+
+h1{
+    font-size: 350px;
+    /* text-align: center; */
+    font-weight: 10;
     position: absolute;
-  right: 150px;               /* Right side */
-  top: 18%;               /* Div ka 50% height */
-  transform: translateY(-50%); /* Exact vertical center */
-  font-weight: bolder;
-  font-size: 100px;
-  color: #44000E;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family:vogue;
     
+
+}
+
+#van{
+
+    position:absolute;
+    top: 65%;
+    left: 60px;
+    width:180px;
+
     
- }
+}
+
+#bottom{
+    position: absolute;
+    display: flex;
+    font-family: diff;
+    width: 100%;
+    bottom: 7%;
+    
+}
+
+#bottom #bot1{
+position: absolute;
+left: 5%;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 20px;
+font-style: italic;
+
+
+
+
+}
+
+#bottom #bot2{
+position: absolute;
+right: 5%;
+font-family: diff;
+font-size: 20px;
+font-weight: 80;
+font-weight: bold;
+
+}
+
+img{
+    
+    position:relative;
+}
+
+#ig1{
+    
+     height: 250px;
+    width: 200px;
+    top: 35%;
+    left: 45%;
+}
+
+#ig2{
+     height: 150px;
+    width: 300px;
+    left: 38.5%;
+    top: 40%;
+    object-fit: contain;
+    
+
+}
+
+#ig3{
+     height: 250px;
+    width: 200px;
+    top: 30%;
+    left: 34%;
+    object-fit: contain;
+
+}
+
+    
+
+
