@@ -1,19 +1,3 @@
-@font-face {
-    font-family:sf ;
-    src: url(./FontsFree-Net-SFProText-Regular.ttf);
-}
-
-@font-face {
-    font-family: safi ;
-    src: url(./SFPRODISPLAYREGULAR.OTF);
-}
-
-@font-face {
-    font-family:diff ;
-    src: url();
-}
-
-
 
 *{
     margin: 0;
@@ -27,73 +11,32 @@ html,body{
     width: 100%;
 }
 
-#nav{
-
-    width: 100%;
-    display: flex;
-    position: relative;
-    top: 0%;
-    height: 50px;
-    /* background-color: aqua; */
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
-    font-weight: 10;
-    font-family:sf;
-    background-color: rgba(255, 255, 255, 0.4);
-
-
-
-}
-
-#centre{
-
-     width: 100%;
-     background-image: url(./hero_iphone_17_pro__bknyzxfk2agi_medium.jpg);
-     color: white;
-     height: 80%;
-     position: relative;
-     background-size: cover;
-     background-position: bottom;
-     padding: 50px;
-
-
-     
-}
-
 h1{
-    font-family: sf;
-    position: relative;
+    font-size: 100px;
     text-align: center;
-
-}
-
-p{
-    font-family: sf;
-    position: relative;
-    text-align: center;
-}
-
-#bt{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  padding: 10px;
+    margin-top: 0px;
 }
 
 button{
-    padding: 10px 17px;
-    font-family: sf;
-    border-radius: 45px;
-    font-weight:bold;
-    border: solid;
-    border-color: #0071E3;
-    background-color:#0071E3 ;
-    border-width: 1px;
-    color: white;
+    font-size: 50px;
+     text-align: center;
+    
 }
 
-#bt2{
-     background-color:#000000 ;
+#but1{
+  margin-left: 450px;
+  margin-top: 150px;
+  background-color: rgb(77, 130, 177);
+  border-radius: 20px;
 }
+
+
+ #but2{
+ margin-left: 650px;
+ /* margin-top: 150px ; */
+ background-color: rgb(184, 38, 123);
+ border-radius: 20px;
+}
+
+ 
+
