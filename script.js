@@ -1,19 +1,17 @@
 
-var inc = document.querySelector('#but1')
-var dec = document.querySelector('#but2')
-var h = document.querySelector('h1')
+var  boox = document.querySelector('#box')
+var clk = document.querySelector('button')
 
 
-var a = 0
 
-inc.addEventListener('click',function()
+
+clk.addEventListener('click',function()
 {
-    a++
-    h.innerHTML = a
+   var n1 = Math.floor(Math.random()*256)
+   var n2 = Math.floor(Math.random()*256)
+   var n3 = Math.floor(Math.random()*256)
+
+   boox.style.backgroundColor = `rgb(${n1},${n2},${n3})`
+    
 })
 
-dec.addEventListener('click',function()
-{
-    a--
-    h.innerHTML = a
-})
