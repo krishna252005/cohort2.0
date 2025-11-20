@@ -1,3 +1,38 @@
+@font-face {
+    font-family: font ;
+    src: url(./Luckill.ttf);
+}
+
+@font-face {
+    font-family: fond ;
+    src: url(./SandeMoreDemo-Regular.otf);
+}
+
+@font-face {
+    font-family: dancing ;
+    src: url(./Dancing\ Script.ttf);
+}
+
+@font-face {
+    font-family: awesome ;
+    src: url(/FontAwesome.ttf);
+}
+
+@font-face {
+    font-family: gondens ;
+    src: url(./Gondens\ DEMO.otf);
+}
+
+@font-face {
+    font-family: libre ;
+    src: url(./LibreBaskerville-Regular.ttf);
+}
+
+@font-face {
+    font-family: luckill ;
+    src: url(./Luckill.ttf);
+}
+
 
 *{
     margin: 0;
@@ -20,35 +55,132 @@ html,body{
 }
 
 #box{
-    margin-top: 80px;
-    height: 300px;
-    width: 300px;
-    border-color: rgb(0, 0, 0);
-    border-radius: 25px;
+    height: 350px;
+    width: 400px;
+    border-color: goldenrod; 
+    border-radius: 20px;
+    border-width: 5px;
     border-style: solid;
-    background-color: rgb(23,56,80);
+    /* background-image: url(./cthrough-XOd4rv3W4ew-unsplash.jpg); */
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+     background-color: rgb(169, 202, 253);
+
 }
 
 button{
     padding: 20px 10px;
-    color: rgb(143, 35, 35);
-    background-color: rgb(121, 221, 14);
-     border-color: rgb(0, 0, 0);
+    color: rgb(15, 16, 14);
+    width: 150px;
+    background-color: rgb(169, 202, 253);
+    border-color: goldenrod; 
     border-radius: 25px;
     border-style: solid;
     font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: dancing;
+    
 
 
 }
 
 button:hover{
-    background-color: rgb(223, 39, 213);
-    box-shadow: 2px 2px 0.4 rgb(106, 80, 41);
+    background-color: rgb(209, 223, 58);
+    box-shadow: 8px 8px 8px rgb(106, 80, 41, 0.5);
+    cursor:pointer;
+    
 }
 
 button:active{
-    scale: 0.95;
-    cursor: grabbing;
-    background-color: white;
+    scale:1.11;
+    cursor:pointer;
+   background-color: rgb(169, 202, 253);
 }
+
+body{
+
+    background-color: rgb(245, 244, 239);
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+h1{
+
+    color: rgb(15, 16, 14);
+    font-size: 50px;
+    margin-top: 20px;
+    font-family: fond;
+}
+
+h4{
+
+    color: rgb(10, 110, 199);
+    font-size: 40px;
+    font-weight: 100;
+    /* position:absolute; */
+    top: 40%;
+    left: 10%;
+    width: 300px;
+    font-family: font;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+#h4{
+    position: absolute;
+    top: 33%;
+    left: 5%;
+}
+
+#party{
+   
+    
+    font-family: libre;
+    position:absolute;
+    left: 0%;
+    top: 10%;
+      text-align: center;
+      width: 390px;
+      padding: 10px 5px;
+      
+    
+
+    
+   
+}
+
+#seats{
+   
+   
+    font-family: libre;
+    position:absolute;
+    left: 0%;
+    top: 40%;
+      text-align: center;
+      width: 390px;
+      padding: 10px 5px;
+      font-size: 50px;
+    
+   
+}
+
+#form{
+   
+   
+    font-family: fond;
+    position:absolute;
+     top: 65%;
+      left: 0%;;
+      text-align: center;
+       width: 390px;
+       font-size: 40px;
+       font-weight: bolder;
+   
+   
+}
+
