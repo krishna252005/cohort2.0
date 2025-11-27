@@ -1,31 +1,47 @@
-var para = document.querySelector('p')
-var characters = "QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm"
-var text = para.innerHTML
-let interval = 0
+const canvas = document.querySelector('#matrix');
+var ctx = canvas.getContext('2d');
 
- para.addEventListener('mouseenter',() =>{
+var fontSize = 10;
+ctx.font = fontSize + "px monospace";
 
-    let iteration = 0
-    clearInterval(interval)
+function resizeCanvas() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
 
-  interval = setInterval(()=>{
+    columns = Math.floor(canvas.width / fontSize);
 
-   
-    var str = text.split('').map((char,index) => {
-          if(index<iteration)
-          {
-            return char
-          }
-        return characters.split('')[Math.floor(Math.random()*52)]
-    }).join('')
+    drops = [];
+    for (var i = 0; i < columns; i++) {
+        drops[i] = Math.floor(Math.random()*62);
+    }
+}
 
-    para.innerHTML = str
+resizeCanvas();
+window.addEventListener('resize', resizeCanvas);
 
-    iteration+=0.5
+var bucket = "QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm1234567890".split('');
+var drops;
 
+var columns;
 
- },50)
+function drawMatrix() {
+    ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
 
- 
+    ctx.fillStyle = "#0F0";
 
-})
+    for (var i = 0; i < drops.length; i++) {
+        let letter = bucket[Math.floor(Math.random() * bucket.length)];
+        ctx.fillText(letter, i * fontSize, drops[i] * fontSize);
+
+        drops[i]++;
+
+        if (drops[i] * fontSize > canvas.height) {
+            drops[i] = 0;
+        }
+    }
+
+    requestAnimationFrame(drawMatrix);
+}
+
+drawMatrix();
